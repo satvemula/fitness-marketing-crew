@@ -1,0 +1,138 @@
+market_research:
+  description: >
+    Conduct market research to identify the latest fitness trends, workout styles, nutrition insights, and opportunities in the fitness industry.
+    Focus on understanding the needs of fitness enthusiasts, hybrid athletes, and gym-goers, as well as analyzing competitor fitness brands.
+    <Product Name>{product_name}</Product Name>
+    <Product Description>{product_description}</Product Description>
+    <Target Audience>{target_audience}</Target Audience>
+    <Budget>{budget}</Budget>
+
+    Current date: {current_date}
+
+  expected_output: >
+    A comprehensive fitness market research report that includes:
+    - Analysis of emerging fitness trends and popular workouts
+    - Competitor analysis of fitness brands and influencers
+    - Customer insights and fitness community needs
+    - Recommendations for fitness marketing strategies
+
+prepare_marketing_strategy:
+  description: >
+    Develop a fitness marketing strategy that aligns with the brand’s goals and target audience.
+    The strategy should cover audience segmentation, messaging focused on fitness and wellness, and marketing channels ideal for fitness content.
+    <Product Name>{product_name}</Product Name>
+    <Product Description>{product_description}</Product Description>
+    <Target Audience>{target_audience}</Target Audience>
+
+    Current date: {current_date}
+    Use the market research report to inform your strategy.
+
+  expected_output: >
+    A detailed fitness marketing strategy document that includes:
+    - Target audience segmentation (e.g., gym beginners, hybrid athletes)
+    - Budget allocation for campaigns
+    - Recommended fitness-focused marketing channels (Instagram, TikTok, YouTube)
+    - Weekly plan: 3 fitness blogs to write, 2 workout reels to film, 5 social media posts to create
+    - KPIs to track campaign success
+    Save the strategy in 'resources/drafts/marketing_strategy.md'.
+
+create_content_calendar:
+  description: >
+    Create a one-week content calendar focused on fitness topics, workouts, nutrition tips, and motivational posts.
+    The calendar should align with the marketing strategy and highlight key themes and fitness campaigns.
+    <Product Name>{product_name}</Product Name>
+    <Product Description>{product_description}</Product Description>
+    <Target Audience>{target_audience}</Target Audience>
+
+    Current date: {current_date}
+
+  expected_output: >
+    A fitness content calendar that includes:
+    - Topics and formats for each content piece (blogs, reels, posts)
+    - Publishing schedule optimized for fitness audiences
+    - Key campaign themes (e.g., "Summer Shred Challenge", "Hybrid Athlete Nutrition")
+    Save the calendar in 'resources/drafts/content_calendar.md'.
+
+prepare_post_drafts:
+  description: >
+    Draft engaging social media posts and email campaigns based on the fitness content calendar.
+    Ensure the voice is motivational and aligned with fitness goals.
+    <Product Name>{product_name}</Product Name>
+    <Product Description>{product_description}</Product Description>
+    <Target Audience>{target_audience}</Target Audience>
+
+    Current date: {current_date}
+
+  expected_output: >
+    Drafts for:
+    - Instagram, TikTok, LinkedIn, and Facebook posts related to fitness
+    - Motivational and educational email campaigns
+    Save drafts in 'resources/drafts/posts/' as markdown files.
+
+prepare_scripts_for_reels:
+  description: >
+    Prepare concise, engaging scripts for Instagram and TikTok reels featuring workouts, fitness tips, or motivational messages.
+    Scripts should align with the content calendar and target fitness audiences.
+    <Product Name>{product_name}</Product Name>
+    <Product Description>{product_description}</Product Description>
+    <Target Audience>{target_audience}</Target Audience>
+
+    Current date: {current_date}
+
+  expected_output: >
+    Ready-to-film reel scripts that include:
+    - Catchy hooks
+    - Clear fitness instructions or messages
+    - Calls to action (e.g., “Try this workout today!”, “Follow for more tips!”)
+    Save scripts in 'resources/drafts/reels/' folder in markdown format.
+
+content_research_for_blogs:
+  description: >
+    Research blog topics focused on fitness trends, workout techniques, nutrition, and hybrid athlete lifestyle.
+    Include keyword analysis and competitor fitness blogs.
+    <Product Name>{product_name}</Product Name>
+    <Product Description>{product_description}</Product Description>
+    <Target Audience>{target_audience}</Target Audience>
+
+    Current date: {current_date}
+
+  expected_output: >
+    A fitness blog research report covering:
+    - Relevant keywords for SEO
+    - Competitor blog analysis
+    - Suggested blog topics and outlines
+    Save research in 'resources/drafts/blog_research.md'.
+
+draft_blogs:
+  description: >
+    Write fitness blogs based on the research and content calendar.
+    Blogs should be engaging, informative, and optimized for SEO with fitness-related keywords.
+    <Product Name>{product_name}</Product Name>
+    <Product Description>{product_description}</Product Description>
+    <Target Audience>{target_audience}</Target Audience>
+
+    Current date: {current_date}
+
+  expected_output: >
+    Draft fitness blogs including:
+    - Compelling intros
+    - Clear workout or nutrition information
+    - SEO optimization
+    Save drafts in 'resources/drafts/blogs/' folder as markdown files.
+
+seo_optimization:
+  description: >
+    Optimize fitness blogs for SEO to improve search rankings.
+    Focus on keywords like “calisthenics workouts,” “hybrid athlete nutrition,” and “fitness motivation.”
+    <Product Name>{product_name}</Product Name>
+    <Product Description>{product_description}</Product Description>
+    <Target Audience>{target_audience}</Target Audience>
+
+    Current date: {current_date}
+
+  expected_output: >
+    SEO-optimized fitness blogs including:
+    - Keyword-rich titles and headings
+    - Meta descriptions
+    - Internal linking
+    Save final versions for review and publication.
