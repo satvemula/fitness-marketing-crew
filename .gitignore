@@ -195,3 +195,7 @@ cython_debug/
 
 # JetBrains IDEs
 .idea
+.env
+resources/saved_drafts/*
+!resources/saved_drafts/.gitkeep
+__pycache__/

@@ -1,44 +1,61 @@
-fitness_marketing_crew
+🏋️ AI Fitness Marketing Agency (CrewAI)
+An autonomous multi-agent AI team designed to research fitness trends, develop marketing strategies, and generate SEO-optimized content for fitness brands. Built using CrewAI and Google Gemini 2.0 Flash.
 
-I built this project using the CrewAI framework to automate fitness content marketing.
-This AI crew helps me generate fitness-focused social media posts, captions, trend research, and posting strategies — perfect for fitness creators, hybrid athletes, and gym brands.
+🤖 The Crew (Agents)
+This project orchestrates four autonomous agents working in sequence:
 
+Trend Researcher: Scours the web for the latest fitness trends and competitor analysis.
 
-Features
+Marketing Strategist: Develops a high-level strategy and content calendar based on research.
 
-- A Fitness Trend Researcher agent that finds viral fitness topics and hashtags
-- A Fitness Content Creator agent that writes engaging posts, captions, and scripts
-- A Social Media Strategist agent that recommends posting schedules and platforms
-- Easily customizable YAML configs for agents and tasks
-- A resources folder where I keep draft content templates and marketing plans
+Content Creator: Drafts blogs, social media posts, and video scripts.
 
+SEO Specialist: Optimizes all written content for search engines (keywords, meta descriptions).
 
-How I Run It
+🛠️ Tech Stack
+Framework: CrewAI
 
-1. I install the dependencies with:
+LLM: Google Gemini 2.0 Flash
 
-   poetry install
-   # or
-   pip install -r requirements.txt
+Search Tools: SerperDev (Google Search API)
 
-2. I update my OpenAI API key in `.env` or environment variables
+Language: Python 3.10+
 
-3. I run the crew with:
+🚀 Getting Started
+1. Installation
 
-   python marketing-crew/crew.py
+Clone the repo and install dependencies:
 
-4. Then I review the generated fitness content in the console or saved drafts
+Bash
+pip install -r requirements.txt
+2. Environment Setup
 
+Create a .env file in the root directory and add your API keys:
 
-How I Customize It
+Plaintext
+GOOGLE_API_KEY=your_gemini_key
+SERPER_API_KEY=your_serper_key
+3. Usage
 
--I modified the agents and tasks in `marketing-crew/config/agents.yaml` and `tasks.yaml` to fit my brand voice and niche
-- I added fitness content drafts in `marketing-crew/resources/saved_drafts/`
-- I extended the crew by adding more agents (like a Graphic Designer or Email Marketer)
+Run the crew to generate a marketing campaign:
 
+Bash
+python crew.py
+4. Customization
 
-References
+You can adjust the agent personas and task descriptions in the config/ folder:
 
-- This is based on the CrewAI Crash Course by Codebasics: https://github.com/codebasics/crewai-crash-course
-- And I used the Google Gemini CrewAI docs as a guide: https://ai.google.dev/gemini-api/docs/crewai-example
+config/agents.yaml: Defines the backstory and goals of the agents.
 
+config/tasks.yaml: Defines the specific deliverables and expected outputs.
+
+📂 Output
+The crew saves its work in the resources/saved_drafts/ directory, organized by:
+
+/blogs: Full markdown articles.
+
+/posts: Social media captions and email drafts.
+
+/reels: Video scripts for TikTok/Reels.
+
+marketing_strategy.md: High-level strategic plan.

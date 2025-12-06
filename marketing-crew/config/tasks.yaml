@@ -18,7 +18,7 @@ market_research:
 
 prepare_marketing_strategy:
   description: >
-    Develop a fitness marketing strategy that aligns with the brand’s goals and target audience.
+    Develop a fitness marketing strategy that aligns with the brand's goals and target audience.
     The strategy should cover audience segmentation, messaging focused on fitness and wellness, and marketing channels ideal for fitness content.
     <Product Name>{product_name}</Product Name>
     <Product Description>{product_description}</Product Description>
@@ -34,7 +34,7 @@ prepare_marketing_strategy:
     - Recommended fitness-focused marketing channels (Instagram, TikTok, YouTube)
     - Weekly plan: 3 fitness blogs to write, 2 workout reels to film, 5 social media posts to create
     - KPIs to track campaign success
-    Save the strategy in 'resources/drafts/marketing_strategy.md'.
+    Save the strategy in 'resources/saved_drafts/marketing_strategy.md'.
 
 create_content_calendar:
   description: >
@@ -51,7 +51,7 @@ create_content_calendar:
     - Topics and formats for each content piece (blogs, reels, posts)
     - Publishing schedule optimized for fitness audiences
     - Key campaign themes (e.g., "Summer Shred Challenge", "Hybrid Athlete Nutrition")
-    Save the calendar in 'resources/drafts/content_calendar.md'.
+    Save the calendar in 'resources/saved_drafts/content_calendar.md'.
 
 prepare_post_drafts:
   description: >
@@ -67,7 +67,7 @@ prepare_post_drafts:
     Drafts for:
     - Instagram, TikTok, LinkedIn, and Facebook posts related to fitness
     - Motivational and educational email campaigns
-    Save drafts in 'resources/drafts/posts/' as markdown files.
+    Save drafts in 'resources/saved_drafts/posts/' as markdown files.
 
 prepare_scripts_for_reels:
   description: >
@@ -83,8 +83,8 @@ prepare_scripts_for_reels:
     Ready-to-film reel scripts that include:
     - Catchy hooks
     - Clear fitness instructions or messages
-    - Calls to action (e.g., “Try this workout today!”, “Follow for more tips!”)
-    Save scripts in 'resources/drafts/reels/' folder in markdown format.
+    - Calls to action (e.g., "Try this workout today!", "Follow for more tips!")
+    Save scripts in 'resources/saved_drafts/reels/' folder in markdown format.
 
 content_research_for_blogs:
   description: >
@@ -101,7 +101,7 @@ content_research_for_blogs:
     - Relevant keywords for SEO
     - Competitor blog analysis
     - Suggested blog topics and outlines
-    Save research in 'resources/drafts/blog_research.md'.
+    Save research in 'resources/saved_drafts/blog_research.md'.
 
 draft_blogs:
   description: >
@@ -118,12 +118,12 @@ draft_blogs:
     - Compelling intros
     - Clear workout or nutrition information
     - SEO optimization
-    Save drafts in 'resources/drafts/blogs/' folder as markdown files.
+    Save drafts in 'resources/saved_drafts/blogs/' folder as markdown files.
 
 seo_optimization:
   description: >
     Optimize fitness blogs for SEO to improve search rankings.
-    Focus on keywords like “calisthenics workouts,” “hybrid athlete nutrition,” and “fitness motivation.”
+    Focus on keywords like "calisthenics workouts," "hybrid athlete nutrition," and "fitness motivation."
     <Product Name>{product_name}</Product Name>
     <Product Description>{product_description}</Product Description>
     <Target Audience>{target_audience}</Target Audience>
@@ -135,4 +135,4 @@ seo_optimization:
     - Keyword-rich titles and headings
     - Meta descriptions
     - Internal linking
-    Save final versions for review and publication.
+    Save final versions in 'resources/saved_drafts/blogs/' for review and publication.
